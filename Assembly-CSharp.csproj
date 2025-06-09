@@ -56,8 +56,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\SimplePlayerMover.cs" />
-     <Compile Include="Assets\Script\SpeakerDebug.cs" />
+     <Compile Include="Assets\Script\VoiceInitializer.cs" />
      <Compile Include="Assets\Script\VoiceNetworkManager.cs" />
+     <Compile Include="Assets\Script\VoiceStatusReporter.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\Photon\PhotonVoice\changes-voice.txt" />

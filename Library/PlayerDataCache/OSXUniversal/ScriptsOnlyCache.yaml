@@ -3,16 +3,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - SimplePlayerMover
     - VoiceNetworkManager
+    - VoiceStatusReporter
     PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PhotonTransformViewClassicEditor
-    - Photon.Pun.PhotonViewInspector
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformViewClassic
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
-    PhotonVoice.Editor.dll:
-    - Photon.Voice.Unity.Editor.RecorderEditor
-    - Photon.Voice.Unity.Editor.SpeakerEditor
     PhotonVoice.PUN.dll:
     - Photon.Voice.PUN.PhotonVoiceView
     PhotonVoice.dll:
@@ -75,6 +72,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14226}
     - Class: 114
       Script: {instanceID: 14244}
+    - Class: 114
+      Script: {instanceID: 15892}
+    - Class: 114
+      Script: {instanceID: 16772}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -868,6 +869,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VoiceStatusReporter
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
