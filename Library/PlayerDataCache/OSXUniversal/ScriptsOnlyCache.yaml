@@ -3,10 +3,16 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - SimplePlayerMover
     - VoiceNetworkManager
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PhotonTransformViewClassicEditor
+    - Photon.Pun.PhotonViewInspector
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformViewClassic
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
+    PhotonVoice.Editor.dll:
+    - Photon.Voice.Unity.Editor.RecorderEditor
+    - Photon.Voice.Unity.Editor.SpeakerEditor
     PhotonVoice.PUN.dll:
     - Photon.Voice.PUN.PhotonVoiceView
     PhotonVoice.dll:

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Script/SimplePlayerMover.cs" />
+    <Compile Include="Assets/Script/SpeakerDebug.cs" />
     <Compile Include="Assets/Script/VoiceNetworkManager.cs" />
   </ItemGroup>
   <ItemGroup>
