@@ -21,6 +21,9 @@ public class VoiceNetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
+        Debug.Log("✅ Joined room, now instantiating player!");
+
+
         Vector3 pos = new Vector3(Random.Range(-2, 2), 1, Random.Range(-2, 2));
         PhotonNetwork.Instantiate("PLAYER", pos, Quaternion.identity);
     }
