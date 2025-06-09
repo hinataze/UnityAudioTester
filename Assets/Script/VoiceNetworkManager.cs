@@ -2,6 +2,7 @@
 using Photon.Realtime;
 using UnityEngine;
 using System.Collections; // ✅ This is required for IEnumerator!
+using Photon.Voice.Unity;
 
 
 public class VoiceNetworkManager : MonoBehaviourPunCallbacks
@@ -44,24 +45,31 @@ public class VoiceNetworkManager : MonoBehaviourPunCallbacks
         yield return new WaitUntil(() => PhotonNetwork.IsConnectedAndReady && PhotonNetwork.InRoom);
         yield return new WaitForSeconds(0.3f); // Let Voice init finish
 
-
-
         Vector3 pos = new Vector3(Random.Range(-2, 2), 1, Random.Range(-2, 2));
-
-
         Color myColor = new Color(Random.value, Random.value, Random.value);
         object[] instantiationData = new object[] { myColor.r, myColor.g, myColor.b };
 
         GameObject player = PhotonNetwork.Instantiate("PLAYER", pos, Quaternion.identity, 0, instantiationData);
 
+        // 🟡 Add this block:
+        PhotonView view = player.GetComponent<PhotonView>();
+        Recorder recorder = player.GetComponent<Recorder>();
+        if (recorder != null)
+        {
+            if (!view.IsMine)
+            {
+                recorder.enabled = false;
+                Debug.Log("🔇 Recorder DISABLED for remote player");
+            }
+            else
+            {
+                Debug.Log("🎙️ Recorder ENABLED for local player");
+            }
+        }
 
- 
-
-        Debug.Log("✅ Instantiated PLAYER at: " + pos + " | Owned: " + player.GetComponent<PhotonView>().IsMine);
-
+        Debug.Log("✅ Instantiated PLAYER at: " + pos + " | Owned: " + view.IsMine);
         Debug.Log("✅ " + PhotonNetwork.NickName + " spawned player at " + pos);
     }
-
 
 
 
