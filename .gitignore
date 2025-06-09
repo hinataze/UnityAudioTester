@@ -1,0 +1,10 @@
+# macOS system files
+.DS_Store
+
+# Custom ignore files
+.collabignore
+
+# Visual Studio
+.vs/
+.vsconfig
+obj/
