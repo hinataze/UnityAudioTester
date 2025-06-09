@@ -1,18 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Photon.Voice.Unity;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class SpeakerDebug : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Speaker spk;
+
     void Start()
     {
-        
+        spk = GetComponent<Speaker>();
+        if (spk != null)
+        {
+            Debug.Log("🎧 Speaker component found!");
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (spk != null && spk.IsPlaying)
+        {
+            Debug.Log("🔊 Speaker is playing remote voice!");
+        }
     }
 }
