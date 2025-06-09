@@ -8,10 +8,10 @@ public class VoiceNetworkManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
-
+        PhotonNetwork.NickName = "User_" + Random.Range(1000, 9999);  // or use player name input
+        PhotonNetwork.ConnectUsingSettings();
         Debug.Log("✅ VoiceStartupCheck: Script is running!");
 
-        PhotonNetwork.ConnectUsingSettings();
     }
 
     public override void OnConnectedToMaster()
