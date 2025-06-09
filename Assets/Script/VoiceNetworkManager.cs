@@ -1,10 +1,25 @@
 ﻿using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
+using System.Collections; // ✅ This is required for IEnumerator!
+
 
 public class VoiceNetworkManager : MonoBehaviourPunCallbacks
 {
     public GameObject playerPrefab;
+
+
+
+    void Awake()
+    {
+        if (FindObjectsOfType<VoiceNetworkManager>().Length > 1)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
@@ -21,12 +36,33 @@ public class VoiceNetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        Debug.Log("✅ Joined room, now instantiating player!");
+        StartCoroutine(SpawnPlayer());
+    }
+
+    IEnumerator SpawnPlayer()
+    {
+        yield return new WaitUntil(() => PhotonNetwork.IsConnectedAndReady && PhotonNetwork.InRoom);
+        yield return new WaitForSeconds(0.3f); // Let Voice init finish
+
 
 
         Vector3 pos = new Vector3(Random.Range(-2, 2), 1, Random.Range(-2, 2));
-        PhotonNetwork.Instantiate("PLAYER", pos, Quaternion.identity);
+
+
+        Color myColor = new Color(Random.value, Random.value, Random.value);
+        object[] instantiationData = new object[] { myColor.r, myColor.g, myColor.b };
+
+        GameObject player = PhotonNetwork.Instantiate("PLAYER", pos, Quaternion.identity, 0, instantiationData);
+
+
+ 
+
+        Debug.Log("✅ Instantiated PLAYER at: " + pos + " | Owned: " + player.GetComponent<PhotonView>().IsMine);
+
+        Debug.Log("✅ " + PhotonNetwork.NickName + " spawned player at " + pos);
     }
+
+
 
 
 }

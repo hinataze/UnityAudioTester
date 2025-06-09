@@ -11,11 +11,14 @@ ScriptsOnlyBuild:
     - ExitGames.Demos.DemoPunVoice.ThirdPersonController
     - SimplePlayerMover
     - VoiceNetworkManager
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.Utilities.dll:
     - Photon.Pun.UtilityScripts.MoveByKeys
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonTransformView
+    - Photon.Pun.PhotonTransformViewClassic
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     PhotonVoice.PUN.dll:
@@ -95,6 +98,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14280}
     - Class: 114
       Script: {instanceID: 14290}
+    - Class: 114
+      Script: {instanceID: 14316}
     - Class: 114
       Script: {instanceID: 14326}
     - Class: 114
