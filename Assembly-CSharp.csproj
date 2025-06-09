@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2019_4_29;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2019_4_29;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,39 +56,6 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/ChangeColor.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/ChangeName.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/PointersController.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/ProximityVoiceTrigger.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BetterToggle.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ChangePOV.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/CharacterInstantiation.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/FirstPersonController.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/Highlighter.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/MouseLookHelper.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/OrthographicController.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ThirdPersonController.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/VoiceDemoUI.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/BackgroundMusicController.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/CodecSettingsUI.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/DemoVoiceUI.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/MicrophoneSelector.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/PhotonDemoExtensions.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/RemoteSpeakerUI.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/SidebarToggle.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs" />
-    <Compile Include="Assets/Photon/PhotonVoice/Demos/Fusion/DemoNetworkObject/PrefabSpawner.cs" />
     <Compile Include="Assets/Script/SimplePlayerMover.cs" />
     <Compile Include="Assets/Script/VoiceNetworkManager.cs" />
   </ItemGroup>
@@ -99,16 +66,11 @@
     <None Include="Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x86/opus_egpv.dll" />
     <None Include="Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86/AudioIn.dll" />
     <None Include="Assets/Photon/PhotonVoice/changes-voice.txt" />
-    <None Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets/Photon/PhotonVoice/Demos/Fusion/readme.txt" />
     <None Include="Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/webrtc-audio.dll" />
     <None Include="Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/opus_egpv.dll" />
-    <None Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Fonts/Orbitron Black.txt" />
-    <None Include="Assets/Photon/PhotonVoice/Demos/Resources/readme.txt" />
     <None Include="Assets/Photon/PhotonVoice/PhotonVoiceLibs/x86_64/opus_egpv.dll" />
     <None Include="Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/ARM/webrtc-audio.dll" />
     <None Include="Assets/Photon/PhotonLibs/changes-library.txt" />
-    <None Include="Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/RobotoFont/Apache License.txt" />
     <None Include="Assets/Photon/PhotonUnityNetworking/readme.txt" />
     <None Include="Assets/Photon/PhotonVoice/PhotonVoiceLibs/WSA/x64/webrtc-audio.dll" />
     <None Include="Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll" />
@@ -306,11 +268,11 @@
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.29f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
-    </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.29f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -692,33 +654,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{699EAB12-8FDE-3830-BC2B-95A7D1E410C7}</Project>
-      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{CA2E0F75-2952-8D35-1C6F-C3964A199847}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{767DB299-1610-F2D7-8822-64F120845884}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{39484F63-E140-CF9E-E3AD-79BA5A0262B1}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{D99DD851-E3D6-D39B-35EC-BDA0DEF8CA6D}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="MicAmplifierEditor.Editor.csproj">
       <Project>{030F96AE-2228-BF9A-E27E-E176D6ACFC14}</Project>
       <Name>MicAmplifierEditor.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{699EAB12-8FDE-3830-BC2B-95A7D1E410C7}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonVoice.API.csproj">
       <Project>{B37CBD60-CE67-FD56-7C0C-0184C0B5E0FC}</Project>
       <Name>PhotonVoice.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{CA2E0F75-2952-8D35-1C6F-C3964A199847}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.Editor.csproj">
       <Project>{7E0E485F-3CF2-777C-2A5A-6EE8989ECAA9}</Project>
@@ -732,25 +682,37 @@
       <Project>{88A2277B-E6E6-E741-D564-3A7782911AE4}</Project>
       <Name>Voice.FMOD.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{209BE626-9989-FA84-D3E1-FAFA2C56DECE}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{767DB299-1610-F2D7-8822-64F120845884}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonVoice.csproj">
       <Project>{03166A67-55B0-223C-4B5D-0127CB12ED99}</Project>
       <Name>PhotonVoice</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{97D69AB4-B2BD-8DC5-9728-586FA3CECF18}</Project>
+      <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonVoice.Utilities.Editor.csproj">
       <Project>{AF9ABCC6-A716-EF95-EB75-4359E48A8B85}</Project>
       <Name>PhotonVoice.Utilities.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{39484F63-E140-CF9E-E3AD-79BA5A0262B1}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{D99DD851-E3D6-D39B-35EC-BDA0DEF8CA6D}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
       <Project>{72CF2B5D-9DFF-C84A-D687-EE3456ECFB4F}</Project>
       <Name>PhotonVoice.PUN.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{209BE626-9989-FA84-D3E1-FAFA2C56DECE}</Project>
-      <Name>PhotonRealtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{97D69AB4-B2BD-8DC5-9728-586FA3CECF18}</Project>
-      <Name>PhotonChat</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

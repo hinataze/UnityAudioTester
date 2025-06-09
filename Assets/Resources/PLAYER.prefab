@@ -119,7 +119,6 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 0}
   - {fileID: 7972738230219189009}
   sceneViewId: 0
   InstantiationId: 0
@@ -250,7 +249,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.06583334
       inSlope: 0
       outSlope: 0
       tangentMode: 0
