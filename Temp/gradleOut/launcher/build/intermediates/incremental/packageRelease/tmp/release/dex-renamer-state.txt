@@ -1,0 +1,4 @@
+#Mon Jun 16 21:23:07 WEST 2025
+base.0=/Users/hs/プロジェクト/UnityAudioTester/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

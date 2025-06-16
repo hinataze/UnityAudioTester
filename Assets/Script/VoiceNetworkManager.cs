@@ -49,7 +49,7 @@ public class VoiceNetworkManager : MonoBehaviourPunCallbacks
         Color myColor = new Color(Random.value, Random.value, Random.value);
         object[] instantiationData = new object[] { myColor.r, myColor.g, myColor.b };
 
-        GameObject player = PhotonNetwork.Instantiate("PLAYER", pos, Quaternion.identity, 0, instantiationData);
+        GameObject player = PhotonNetwork.Instantiate("Player_Photon", pos, Quaternion.identity, 0, instantiationData);
 
         // 🟡 Add this block:
         PhotonView view = player.GetComponent<PhotonView>();
@@ -67,7 +67,7 @@ public class VoiceNetworkManager : MonoBehaviourPunCallbacks
             }
         }
 
-        Debug.Log("✅ Instantiated PLAYER at: " + pos + " | Owned: " + view.IsMine);
+        Debug.Log("✅ Instantiated Player_Photon at: " + pos + " | Owned: " + view.IsMine);
         Debug.Log("✅ " + PhotonNetwork.NickName + " spawned player at " + pos);
     }
 
