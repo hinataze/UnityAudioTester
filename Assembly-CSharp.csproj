@@ -224,6 +224,8 @@
     <Compile Include="Assets/ResonanceAudio/Scripts/ResonanceAudioRoom.cs" />
     <Compile Include="Assets/ResonanceAudio/Scripts/ResonanceAudioRoomManager.cs" />
     <Compile Include="Assets/ResonanceAudio/Scripts/ResonanceAudioSource.cs" />
+    <Compile Include="Assets/Script/AudioPluginProfilerLogger.cs" />
+    <Compile Include="Assets/Script/ListenerPathMover.cs" />
     <Compile Include="Assets/Script/SimplePlayerMover.cs" />
     <Compile Include="Assets/Script/VoiceInitializer.cs" />
     <Compile Include="Assets/Script/VoiceNetworkManager.cs" />
@@ -542,6 +544,10 @@
     </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SoundxRCommon">
+      <HintPath>Assets/SoundXR/Common/Scripts/SoundxRCommon.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1048,6 +1054,22 @@
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MicAmplifierEditor.Editor.csproj">
@@ -1137,6 +1159,10 @@
     <ProjectReference Include="PhotonVoice.PUN.Editor.csproj">
       <Project>{0225B3EF-579E-9E6C-593D-B0B142E3BDDC}</Project>
       <Name>PhotonVoice.PUN.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SoundXR.Common.Editor.VSAttribution.csproj">
+      <Project>{AE7833A6-B1B1-532D-BD5E-0186310DDD91}</Project>
+      <Name>SoundXR.Common.Editor.VSAttribution</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
