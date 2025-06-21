@@ -336,6 +336,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.29f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="SoundxRCommon">
+      <HintPath>Assets/SoundXR/Common/Scripts/SoundxRCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
       <Private>False</Private>

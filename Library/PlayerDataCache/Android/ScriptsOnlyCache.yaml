@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioPluginProfilerLogger
     - DemoPlayerController
+    - ListenerPathMover
     - ONSPSettings
     - ResonanceAudioDemoCubeController
     - ResonanceAudioListener
@@ -11,11 +13,14 @@ ScriptsOnlyBuild:
     - VoiceInitializer
     - VoiceNetworkManager
     - VoiceStatusReporter
+    - XRTrackingDisabler
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformViewClassic
     - Photon.Pun.PhotonView
@@ -26,13 +31,30 @@ ScriptsOnlyBuild:
     - Photon.Voice.PhotonAppSettings
     - Photon.Voice.Unity.Recorder
     - Photon.Voice.Unity.Speaker
+    SoundXR.Spatializer.dll:
+    - Soundxr.Effect.Spatializer.AmbisonicsAudioListener
+    - Soundxr.Effect.Spatializer.SpatializedAudioSource
     SteamAudioUnity.dll:
     - SteamAudio.SteamAudioListener
     - SteamAudio.SteamAudioMaterial
     - SteamAudio.SteamAudioSettings
     - SteamAudio.SteamAudioSource
+    Unity.Recorder.Editor.dll:
+    - UnityEditor.Recorder.AudioRecorderEditor
+    - UnityEditor.Recorder.AudioRecorderSettings
+    - UnityEditor.Recorder.RecorderControllerSettings
+    - UnityEditor.Recorder.RecorderSettingsPrefsEditor
+    - UnityEditor.Recorder.RecorderWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -72,53 +94,63 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12022}
+      Script: {instanceID: 12198}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 12330}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12308}
+      Script: {instanceID: 12460}
     - Class: 114
-      Script: {instanceID: 12334}
+      Script: {instanceID: 12608}
     - Class: 114
-      Script: {instanceID: 12494}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 12740}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 12946}
+      Script: {instanceID: 13190}
     - Class: 114
-      Script: {instanceID: 13652}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 14432}
     - Class: 114
-      Script: {instanceID: 13744}
+      Script: {instanceID: 14456}
     - Class: 114
-      Script: {instanceID: 14182}
+      Script: {instanceID: 14562}
     - Class: 114
-      Script: {instanceID: 14214}
+      Script: {instanceID: 15096}
     - Class: 114
-      Script: {instanceID: 14436}
+      Script: {instanceID: 15108}
     - Class: 114
-      Script: {instanceID: 14750}
+      Script: {instanceID: 15148}
     - Class: 114
-      Script: {instanceID: 14828}
+      Script: {instanceID: 15464}
     - Class: 114
-      Script: {instanceID: 15180}
+      Script: {instanceID: 15494}
     - Class: 114
-      Script: {instanceID: 15210}
+      Script: {instanceID: 15870}
     - Class: 114
-      Script: {instanceID: 15216}
+      Script: {instanceID: 15982}
     - Class: 114
-      Script: {instanceID: 15280}
+      Script: {instanceID: 16460}
     - Class: 114
-      Script: {instanceID: 15284}
+      Script: {instanceID: 16498}
     - Class: 114
-      Script: {instanceID: 15468}
+      Script: {instanceID: 16504}
     - Class: 114
-      Script: {instanceID: 15740}
+      Script: {instanceID: 16604}
     - Class: 114
-      Script: {instanceID: 15764}
+      Script: {instanceID: 16610}
+    - Class: 114
+      Script: {instanceID: 16808}
+    - Class: 114
+      Script: {instanceID: 16860}
+    - Class: 114
+      Script: {instanceID: 17230}
+    - Class: 114
+      Script: {instanceID: 17260}
+    - Class: 114
+      Script: {instanceID: 17340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -280,6 +312,12 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
+      Hash: 9c7c87712e298256d276eb96e02a57b1
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PreferenceDictionary
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -299,6 +337,18 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XRTrackingDisabler
+  - hash:
+      serializedVersion: 2
+      Hash: 327195acf773d73da57790e6ec7d79fd
+    assemblyName: SoundXR.Examples.dll
+    namespaceName: Soundxr.Effect.Spatializer.Examples
+    className: KeyController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: P2PNetworkGoal
@@ -308,6 +358,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -418,6 +474,18 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: b9d342016bf46f22d306917ab53bbb92
+    assemblyName: SoundXR.Spatializer.dll
+    namespaceName: Soundxr.Effect.Spatializer
+    className: SpatializedSoundArea
+  - hash:
+      serializedVersion: 2
       Hash: b5d01a44c9a694c6b9bce4626dd0a12e
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -434,6 +502,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 4abb80cba2d78ed9258136201394eb1a
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
   - hash:
       serializedVersion: 2
       Hash: 3a40cc854b01d84683e60ec7acd2ca32
@@ -458,6 +538,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: f6633ace6e530c0000f2ac6da4269c52
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PolyShape
   - hash:
       serializedVersion: 2
       Hash: 36ccc3f277b18fdde062df41fe090e53
@@ -550,6 +636,12 @@ ScriptsOnlyBuild:
     className: PhotonHandler
   - hash:
       serializedVersion: 2
+      Hash: 05655f7deb066a961c41619ac9e98263
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ProBuilderMesh
+  - hash:
+      serializedVersion: 2
       Hash: e7dac3c9100823d6e750582bb7d6b5f8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -634,7 +726,13 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: d7737a35547e661e540469ced76b87f3
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 7a97d6a8b45749bf5d9adce67d13b15b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DemoPlayerController
@@ -668,6 +766,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ResonanceAudioMaterialMapperUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 32f6d1d5a09e5c94c633a32edd3e6836
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: BezierShape
   - hash:
       serializedVersion: 2
       Hash: 4a7d2411bf4b30e4d7bb29dae648984f
@@ -710,6 +814,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonVoice.dll
     namespaceName: Photon.Voice.Unity
     className: RecorderPreset
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -772,6 +882,12 @@ ScriptsOnlyBuild:
     className: OvrAvatarSettings
   - hash:
       serializedVersion: 2
+      Hash: 783012cc676fd089ed441706fb157b7a
+    assemblyName: SoundXR.Spatializer.dll
+    namespaceName: Soundxr.Effect.Spatializer
+    className: AmbisonicsAudioFilter
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -788,6 +904,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVR
     className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5ccefbaf1496ba40867f53b755316bb7
+    assemblyName: SoundXR.Examples.dll
+    namespaceName: Soundxr.Effect.Spatializer.Examples
+    className: AmbisonicsUIPanel
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -916,6 +1038,12 @@ ScriptsOnlyBuild:
     className: InteractableRegistry
   - hash:
       serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: SoundXR.Examples.dll
+    namespaceName: Soundxr.Effect.Spatializer.Examples
+    className: Gyroscope
+  - hash:
+      serializedVersion: 2
       Hash: f41dc612e461acf568bc5ca2f9d3c8ea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -932,6 +1060,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OVRLipSyncSequence
+  - hash:
+      serializedVersion: 2
+      Hash: 019b78019494aeaf06835f790082e7d4
+    assemblyName: SoundXR.Examples.dll
+    namespaceName: Soundxr.Effect.Spatializer.Examples
+    className: GuiManager
   - hash:
       serializedVersion: 2
       Hash: 373688f86e51a7cff81489e2b39ee3bb
@@ -1024,10 +1158,22 @@ ScriptsOnlyBuild:
     className: MoviePlayerSampleControls
   - hash:
       serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: TriggerBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColliderBehaviour
   - hash:
       serializedVersion: 2
       Hash: 9edf0788742c31d8eaaf32cf4feac747
@@ -1348,10 +1494,22 @@ ScriptsOnlyBuild:
     className: PlatformManager
   - hash:
       serializedVersion: 2
+      Hash: 49101319b21043357cb80c5aba043e1d
+    assemblyName: Unity.Recorder.dll
+    namespaceName: UnityEngine.Recorder
+    className: RecorderBindings
+  - hash:
+      serializedVersion: 2
       Hash: 9edf0788742c31d8eaaf32cf4feac747
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRModeParms
+  - hash:
+      serializedVersion: 2
+      Hash: 751f7377bdcf283d78411b39cb0cc800
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ListenerPathMover
   - hash:
       serializedVersion: 2
       Hash: 11b56001a20d634e849cc15d9f2a6042
@@ -1450,6 +1608,12 @@ ScriptsOnlyBuild:
     className: LocalPlayer
   - hash:
       serializedVersion: 2
+      Hash: 96093f5fa1ed023f9f9c02b652ee0811
+    assemblyName: SoundXR.Examples.dll
+    namespaceName: Soundxr.Effect.Spatializer.Examples
+    className: SwipeController
+  - hash:
+      serializedVersion: 2
       Hash: 9f7fd5f1cdce7cb0cbd6b8430ff831c1
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
@@ -1460,6 +1624,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonVoice.dll
     namespaceName: Photon.Voice.Unity.UtilityScripts
     className: TestTone
+  - hash:
+      serializedVersion: 2
+      Hash: d6a8e9bec3160a152b9b2710593d3caa
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColorPalette
   - hash:
       serializedVersion: 2
       Hash: 9e5b79eaffb4a828a08c59fb1d2f2d1a
@@ -1496,6 +1666,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: f2ffeac251ad6d968938b59c12b1d9ec
+    assemblyName: SoundXR.Spatializer.dll
+    namespaceName: Soundxr.Effect.Spatializer
+    className: SpatializedAudioSource
   - hash:
       serializedVersion: 2
       Hash: 4c063458ca029e84d4f59c22fc3c5fca
@@ -1654,6 +1830,12 @@ ScriptsOnlyBuild:
     className: ResonanceAudioRoom
   - hash:
       serializedVersion: 2
+      Hash: 301f4da7cc3b301c161d089f9d22efed
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: Entity
+  - hash:
+      serializedVersion: 2
       Hash: 57f180a5003248da76cab9f40f315b05
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1682,6 +1864,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonVoice.dll
     namespaceName: Photon.Voice.Unity.UtilityScripts
     className: PhotonVoiceStatsGui
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
   - hash:
       serializedVersion: 2
       Hash: 349fc863c5f9c0b3f7471af2e318712a
@@ -1858,6 +2046,12 @@ ScriptsOnlyBuild:
     className: MatchmakingManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SoundXR.Examples.dll
+    namespaceName: Soundxr.Effect.Spatializer.Examples
+    className: SafeArea
+  - hash:
+      serializedVersion: 2
       Hash: 0cc2f729ed4885ca9c95ead34ce0e907
     assemblyName: Oculus.VR.Editor.dll
     namespaceName: Assets.Oculus.VR.Editor
@@ -1894,6 +2088,12 @@ ScriptsOnlyBuild:
     className: PhotonTeamsManager
   - hash:
       serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
       Hash: 07cd3222d0a202305e487dba1ea0ff48
     assemblyName: SteamAudioUnity.dll
     namespaceName: SteamAudio
@@ -1916,6 +2116,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ONSPPropagationGeometry
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SoundXR.Spatializer.dll
+    namespaceName: Soundxr.Effect.Spatializer
+    className: AmbisonicsAudioListener
   - hash:
       serializedVersion: 2
       Hash: 0498232dd48b097128db9129acff161b
@@ -2074,6 +2280,12 @@ ScriptsOnlyBuild:
     className: TeleportTransitionBlink
   - hash:
       serializedVersion: 2
+      Hash: 976ee336a71ae072395307dfae3912e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioPluginProfilerLogger
+  - hash:
+      serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -2096,6 +2308,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
   - hash:
       serializedVersion: 2
       Hash: 9726bc46e15d44429bd38fb013657f1e
@@ -2194,6 +2412,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncContextTextureFlip
   - hash:
       serializedVersion: 2
+      Hash: d79ed6c6dd845178acbb471969ed8dc7
+    assemblyName: SoundXR.Examples.dll
+    namespaceName: Soundxr.Effect.Spatializer.Examples
+    className: PingPong
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2237,4 +2461,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "/Users/hs/\u30D5\u309A\u30ED\u30B7\u3099\u30A7\u30AF\u30C8/UnityAudioTester/3DAudio_Resonance.apk"
+  playerPath: "/Users/hs/\u30D5\u309A\u30ED\u30B7\u3099\u30A7\u30AF\u30C8/UnityAudioTester/AudioPlugInTestLogs/UnityAudioTester_ResonanceX.apk"
