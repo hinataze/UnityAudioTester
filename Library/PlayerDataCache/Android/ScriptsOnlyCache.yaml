@@ -39,12 +39,6 @@ ScriptsOnlyBuild:
     - SteamAudio.SteamAudioMaterial
     - SteamAudio.SteamAudioSettings
     - SteamAudio.SteamAudioSource
-    Unity.Recorder.Editor.dll:
-    - UnityEditor.Recorder.AudioRecorderEditor
-    - UnityEditor.Recorder.AudioRecorderSettings
-    - UnityEditor.Recorder.RecorderControllerSettings
-    - UnityEditor.Recorder.RecorderSettingsPrefsEditor
-    - UnityEditor.Recorder.RecorderWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Management.Editor.dll:
@@ -94,63 +88,63 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12198}
+      Script: {instanceID: 12184}
     - Class: 114
-      Script: {instanceID: 12330}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12400}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 12436}
     - Class: 114
-      Script: {instanceID: 12608}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 12638}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 12852}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 13190}
+      Script: {instanceID: 13132}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13398}
     - Class: 114
-      Script: {instanceID: 14432}
+      Script: {instanceID: 14316}
     - Class: 114
-      Script: {instanceID: 14456}
+      Script: {instanceID: 14340}
     - Class: 114
-      Script: {instanceID: 14562}
+      Script: {instanceID: 14438}
     - Class: 114
-      Script: {instanceID: 15096}
+      Script: {instanceID: 14956}
     - Class: 114
-      Script: {instanceID: 15108}
+      Script: {instanceID: 14968}
     - Class: 114
-      Script: {instanceID: 15148}
+      Script: {instanceID: 15008}
     - Class: 114
-      Script: {instanceID: 15464}
+      Script: {instanceID: 15308}
     - Class: 114
-      Script: {instanceID: 15494}
+      Script: {instanceID: 15338}
     - Class: 114
-      Script: {instanceID: 15870}
+      Script: {instanceID: 15700}
     - Class: 114
-      Script: {instanceID: 15982}
+      Script: {instanceID: 15808}
     - Class: 114
-      Script: {instanceID: 16460}
+      Script: {instanceID: 16274}
     - Class: 114
-      Script: {instanceID: 16498}
+      Script: {instanceID: 16312}
     - Class: 114
-      Script: {instanceID: 16504}
+      Script: {instanceID: 16318}
     - Class: 114
-      Script: {instanceID: 16604}
+      Script: {instanceID: 16414}
     - Class: 114
-      Script: {instanceID: 16610}
+      Script: {instanceID: 16420}
     - Class: 114
-      Script: {instanceID: 16808}
+      Script: {instanceID: 16614}
     - Class: 114
-      Script: {instanceID: 16860}
+      Script: {instanceID: 16662}
     - Class: 114
-      Script: {instanceID: 17230}
+      Script: {instanceID: 17016}
     - Class: 114
-      Script: {instanceID: 17260}
+      Script: {instanceID: 17046}
     - Class: 114
-      Script: {instanceID: 17340}
+      Script: {instanceID: 17120}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2461,4 +2455,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "/Users/hs/\u30D5\u309A\u30ED\u30B7\u3099\u30A7\u30AF\u30C8/UnityAudioTester/AudioPlugInTestLogs/UnityAudioTester_ResonanceX.apk"
+  playerPath: "/Users/hs/\u30D5\u309A\u30ED\u30B7\u3099\u30A7\u30AF\u30C8/UnityAudioTester/AudioPlugInTestLogs/UnityAudioTester_Resonance3.apk"

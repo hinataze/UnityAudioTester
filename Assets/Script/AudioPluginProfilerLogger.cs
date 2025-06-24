@@ -24,7 +24,9 @@ public class AudioPluginProfilerLogger : MonoBehaviour
         string plugin = AudioSettings.GetSpatializerPluginName();
         string timestamp = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
         string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-        string folderPath = Application.dataPath + "/../AudioPlugInTestLogs";
+        string folderPath = Application.isEditor
+    ? Application.dataPath + "/../AudioPlugInTestLogs"
+    : Path.Combine(Application.persistentDataPath, "AudioPlugInTestLogs");
         Directory.CreateDirectory(folderPath);
 
         logPath = Path.Combine(folderPath, $"audio_log_{plugin}_{timestamp}.csv");
